@@ -38,7 +38,7 @@ function woodCalculator(chair,table,bed){
 var chairInput = 2, tableInput = 3, bedInput = 2;
 console.log("Chair Quantity :",chairInput,"Table Quantity :",tableInput,"Bed Quantity :",bedInput);
 totalWood = woodCalculator(chairInput,tableInput,bedInput);
-console.log("The total cubic feet of wood will be needed is : "+totalWood);
+console.log("The total cubic feet of wood will be needed is : ",totalWood);
 
 
 
