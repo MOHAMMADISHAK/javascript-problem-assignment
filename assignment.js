@@ -13,7 +13,7 @@ function feetToMile(feet){
     console.log("Converted Mile value is :",mile);
     }
 }
-var feetInput= 1;
+var feetInput= 3;
 console.log("Enter the value of feet :",feetInput);
 var finalMile = feetToMile(feetInput);
 
@@ -35,7 +35,7 @@ function woodCalculator(chair,table,bed){
         return woodNeeded;
     }
 }
-var chairInput = 1, tableInput = 1, bedInput = 2;
+var chairInput = 2, tableInput = 3, bedInput = 2;
 console.log("Chair Quantity :",chairInput,"Table Quantity :",tableInput,"Bed Quantity :",bedInput);
 totalWood = woodCalculator(chairInput,tableInput,bedInput);
 console.log("The total cubic feet of wood will be needed is : "+totalWood);
@@ -63,7 +63,7 @@ function brickCalculator(floorNumber){
     }
     return brickNeeded;
  }
-var floorNumberInput = 22;
+var floorNumberInput = 14;
 console.log("Enter the number of Floor :",floorNumberInput);
 var totalBrickNeeded = brickCalculator(floorNumberInput);
 console.log("The total number of needed brick is :",totalBrickNeeded);
